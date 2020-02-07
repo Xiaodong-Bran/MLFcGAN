@@ -30,6 +30,7 @@ Based on [pix2pix](https://phillipi.github.io/pix2pix/) by [Phillip Isola](https
     sh test.sh
 
 + To train the model, please run:
+
     sh train.sh
 
 ## Acknowledgments
