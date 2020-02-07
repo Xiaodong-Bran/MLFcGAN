@@ -18,6 +18,7 @@ Based on [pix2pix](https://phillipi.github.io/pix2pix/) by [Phillip Isola](https
 + Clone this repo:
 
     git clone git@github.com:Xiaodong-Bran/MLFcGAN.git
+    
     cd MLFcGAN
 
 + download the pre-trained model: [google-dirve] (https://drive.google.com/open?id=1OREuAj6DplD0-ipQ3s37aZ6j9Q5kXvtO)
