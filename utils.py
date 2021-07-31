@@ -131,7 +131,7 @@ def contrast_loss_func(tensor_img_1,tensor_img_2):
 
 def calc_gradient_penalty(netD, real_data, fake_data,opt,device,constant=1.0):
     #print real_data.size()
-    alpha = torch.rand(opt.batch_size, 1)
+    alpha = torch.rand(1, 1)
     alpha = alpha.expand(real_data.size())
     alpha = alpha.cuda(device) if opt.cuda else alpha
 
