@@ -23,8 +23,16 @@ Based on [pix2pix](https://phillipi.github.io/pix2pix/) by [Phillip Isola](https
 
 + download the pre-trained model: [google-dirve] (https://drive.google.com/open?id=1OREuAj6DplD0-ipQ3s37aZ6j9Q5kXvtO)
 
-+ Modifiy the test_img_folder and test_output_path in test.sh
++ Modifiy the test_img_folder and test_output_path in test.sh The structure of the image folders should follows:
 
++-- name_of_the_dataset
+|   +--source2target
+    | +-- train
+        | +-- source
+        | +-- target
+    | +-- test
+        | +-- source
+        | +--target
 + To test the model, please run:
 
     sh test.sh
